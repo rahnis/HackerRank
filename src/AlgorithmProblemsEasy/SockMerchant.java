@@ -1,4 +1,4 @@
-package AlgorithmProblems;
+package AlgorithmProblemsEasy;
 
 import java.util.HashSet;
 import java.util.Scanner;

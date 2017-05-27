@@ -1,4 +1,4 @@
-package AlgorithmProblems;
+package AlgorithmProblemsEasy;
 
 import java.math.BigInteger;
 import java.util.Arrays;
