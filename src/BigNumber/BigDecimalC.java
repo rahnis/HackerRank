@@ -1,4 +1,4 @@
-package BigNumber;
+package bigNumber;
 
 /*
 Java BigDecimal class can handle arbitrary-precision signed decimal numbers. Lets test your knowledge on them!

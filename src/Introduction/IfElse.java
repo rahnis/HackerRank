@@ -1,4 +1,4 @@
-package Introduction;
+package introduction;
 
 /*
 Given an integer NN as input, check the following:

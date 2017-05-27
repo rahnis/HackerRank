@@ -1,4 +1,4 @@
-package DataStructures;
+package dataStructures;
 
 /*
 In this problem you have to print the largest sum among all the hourglasses in the array.

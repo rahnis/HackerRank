@@ -1,4 +1,4 @@
-package BigNumber;
+package bigNumber;
 
 
 /*

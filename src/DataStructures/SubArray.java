@@ -1,4 +1,4 @@
-package DataStructures;
+package dataStructures;
 
 /*
 This problem will test your knowledge on java array. 

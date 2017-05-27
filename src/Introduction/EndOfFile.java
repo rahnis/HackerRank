@@ -1,4 +1,4 @@
-package Introduction;
+package introduction;
 
 /*
 The challenge here is to read nn lines of input until you reach EOF, then number and print all nn lines of content.

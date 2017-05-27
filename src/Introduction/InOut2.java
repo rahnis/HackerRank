@@ -1,4 +1,4 @@
-package Introduction;
+package introduction;
 
 /*
 For this exercise, you need to read inputs from stdin and print them to stdout.

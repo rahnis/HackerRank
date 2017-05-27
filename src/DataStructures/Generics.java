@@ -1,4 +1,4 @@
-package DataStructures;
+package dataStructures;
 
 /*
 Generic methods are a very efficient way to handle multiple datatypes using a single method. This problem will test your knowledge on Java Generic methods.

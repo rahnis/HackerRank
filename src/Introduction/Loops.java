@@ -1,4 +1,4 @@
-package Introduction;
+package introduction;
 
 /*
 In this problem you will test your knowledge of Java loops. Given three integers aa, bb, and nn, output the following series:

@@ -1,4 +1,4 @@
-package OOP;
+package oops;
 
 class Animal{
 	   void walk()

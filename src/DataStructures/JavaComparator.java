@@ -1,4 +1,4 @@
-package DataStructures;
+package dataStructures;
 
 /*
 Given an array of  Player objects, write a comparator sorts them in order of decreasing score; if  or more players have the same score, sort those players alphabetically by name. To do this, you must create a Checker class that implements the Comparator interface, then write an int compare(Player a, Player b) method implementing the Comparator.compare(T o1, T o2) method.

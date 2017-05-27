@@ -1,4 +1,4 @@
-package AlgorithmProblemsEasy;
+package algorithmProblems;
 
 
 import java.util.HashMap;
