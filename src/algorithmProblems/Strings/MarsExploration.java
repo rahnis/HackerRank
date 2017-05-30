@@ -1,4 +1,4 @@
-package algorithmProblems;
+package algorithmProblems.Strings;
 
 import java.util.Scanner;
 
