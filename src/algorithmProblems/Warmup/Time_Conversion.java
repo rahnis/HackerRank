@@ -1,4 +1,4 @@
-package algorithmProblems;
+package algorithmProblems.Warmup;
 
 import java.util.Scanner;
 

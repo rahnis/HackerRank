@@ -1,4 +1,4 @@
-package algorithmProblems;
+package algorithmProblems.Warmup;
 
 import java.math.BigInteger;
 import java.util.Arrays;

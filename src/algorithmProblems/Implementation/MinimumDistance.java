@@ -1,4 +1,4 @@
-package algorithmProblems;
+package algorithmProblems.Implementation;
 
 import java.util.HashMap;
 import java.util.Scanner;
