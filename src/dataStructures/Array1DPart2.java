@@ -8,28 +8,12 @@ import java.util.Scanner;
  */
 public class Array1DPart2 {
 
-	public static boolean canWin(int leap, int[] game) {
-		int x = game.length - 1, i = 0;
+	private static boolean isSolvable(int m, int[] arr, int i) {
+	    if (i < 0 || arr[i] == 1) return false;
+	    if ((i == arr.length - 1) || i + m > arr.length - 1) return true;
 
-		for (i = 0; i <= x;) {
-			if (i + leap > x)
-				return true;
-			if (i + leap < x && game[i + leap] == 0)
-				i += leap;
-			else if ( i > 0 && (i + leap - 1) < x && game[i - 1] == 0
-					&& game[i + leap - 1] == 0)
-				i--;
-			else if (i + 1 < x && game[i + 1] == 0)
-				i++;
-			else
-				break;
-		}
-
-		if (i > x)
-			return true;
-		else {
-			return false;
-		}
+	    arr[i] = 1;
+	    return isSolvable(m, arr, i + 1) || isSolvable(m, arr, i - 1) || isSolvable(m, arr, i + m);
 	}
 
 	public static void main(String[] args) {
@@ -44,7 +28,7 @@ public class Array1DPart2 {
 				game[i] = scan.nextInt();
 			}
 
-			System.out.println((canWin(leap, game)) ? "YES" : "NO");
+			System.out.println((isSolvable(leap, game, 0)) ? "YES" : "NO");
 		}
 		scan.close();
 	}
